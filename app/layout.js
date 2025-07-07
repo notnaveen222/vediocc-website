@@ -1,4 +1,5 @@
 import "./globals.css";
+import Cursor from "../Components/Cursor";
 
 export const metadata = {
   title: "Videocc",
@@ -8,7 +9,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`overflow-x-hidden antialiased`}>{children}</body>
+      <body className={`overflow-x-hidden antialiased`}>
+        <Cursor />
+        {children}
+      </body>
     </html>
   );
 }

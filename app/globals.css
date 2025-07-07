@@ -54,3 +54,41 @@
   background-color: white;
   color: #fa2624;
 }
+
+.service-image {
+  transition: all 150ms ease-out;
+}
+
+.service-image:hover {
+  scale: 105%;
+}
+
+body {
+  cursor: none;
+}
+
+.cursor-outline {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #fa2624;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 100;
+  pointer-events: none;
+}
+
+.cursor-dot {
+  width: 5px;
+  height: 5px;
+  background-color: #fa2624;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 100;
+  pointer-events: none;
+}

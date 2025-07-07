@@ -5,9 +5,9 @@ const Hero = () => {
     <div className="h-screen w-screen flex-col flex overflow-x-hidden hero-bg">
       <div className="w-full relative flex h-fit justify-end">
         <a
-          href="mailto:vedioccagency@gmail.com"
+          href="https://tidycal.com/vedioccagency"
           target="blank"
-          className="px-5 py-3 absolute top-10 right-5 sm:right-10 inline rounded-xl text-white sf-font font-bold text-3xl orange-btn-animation cursor-pointer"
+          className="px-5 py-3 absolute top-10 right-5 sm:right-10 inline rounded-xl text-white sf-font font-bold text-3xl orange-btn-animation "
         >
           let’s talk
         </a>

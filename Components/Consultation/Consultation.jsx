@@ -10,7 +10,7 @@ const Consultation = () => {
         <a
           href="https://tidycal.com/vedioccagency"
           target="blank"
-          className="px-6 py-5  rounded-3xl text-white sf-font font-bold text-2xl lg:text-4xl orange-btn-animation cursor-pointer"
+          className="px-6 py-5  rounded-3xl text-white sf-font font-bold text-2xl lg:text-4xl orange-btn-animation "
         >
           Book a consultation
         </a>
