@@ -7,9 +7,13 @@ const Consultation = () => {
         LIKE WHAT YOU SEE?
       </div>
       <div className="relative">
-        <button className="px-6 py-5  rounded-3xl text-white sf-font font-bold text-2xl lg:text-4xl orange-btn-animation cursor-pointer">
+        <a
+          href="https://tidycal.com/vedioccagency"
+          target="blank"
+          className="px-6 py-5  rounded-3xl text-white sf-font font-bold text-2xl lg:text-4xl orange-btn-animation cursor-pointer"
+        >
           Book a consultation
-        </button>
+        </a>
         <div className="absolute -bottom-2 -right-9 -rotate-[25deg] text-5xl mea-culpa-regular">
           its free
         </div>
