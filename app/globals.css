@@ -92,3 +92,21 @@ body {
   z-index: 100;
   pointer-events: none;
 }
+
+@media screen and (width >= 700px) {
+  .service-card-description {
+    transition: all 150ms ease-out;
+    transform: rotateX(90deg);
+  }
+
+  .service-card:hover .service-card-description {
+    transform: rotateX(0deg);
+  }
+}
+
+@media screen and (width < 700px) {
+  .service-card-description {
+    transition: all 150ms ease-out;
+    transform: rotateX(0deg);
+  }
+}

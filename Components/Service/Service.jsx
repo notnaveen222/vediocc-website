@@ -1,11 +1,40 @@
+"use client";
 import React from "react";
 import ServiceCard from "./ServiceCard";
 import mock1 from "./Assets/mock1.png";
 import mock2 from "./Assets/mock2.png";
 import mock3 from "./Assets/mock3.png";
 import mock4 from "./Assets/mock4.png";
+import { gsap } from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const Service = () => {
+  useGSAP(() => {
+    gsap.utils.toArray(".service-card").forEach((card, index) => {
+      gsap.fromTo(
+        card,
+        {
+          opacity: 0,
+          y: 100,
+        },
+        {
+          opacity: 1,
+          y: 0,
+          stagger: 0.3 * index,
+          duration: 1,
+          scrollTrigger: {
+            trigger: card,
+            start: "top bottom-=100px",
+            end: "top center",
+            scrub: true,
+          },
+        }
+      );
+    });
+  }, []);
   return (
     <div className="w-screen flex flex-col z-10 hero-bg gap-y-10">
       <div className="underline underline-offset-8 text-[#24231F] sf-font font-bold text-5xl my-14 text-center">
@@ -25,7 +54,7 @@ const Service = () => {
           image={mock2}
           reverse={true}
           description={
-            "We turn clicks into conversions with marketing that’s built to scale, not just exist."
+            "We turn clicks into conversions with marketing that's built to scale, not just exist."
           }
         />
         <ServiceCard
@@ -41,7 +70,7 @@ const Service = () => {
           image={mock4}
           reverse={true}
           description={
-            "We script, design, and deliver short-form  content built to hook, hold, and convert. "
+            "We script, design, and deliver short-form content built to hook, hold, and convert. "
           }
         />
       </div>

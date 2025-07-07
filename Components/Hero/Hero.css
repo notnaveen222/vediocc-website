@@ -8,6 +8,7 @@
     transparent 2px,
     transparent 200px
   );
+  transition: all 150ms;
 }
 
 @font-face {
