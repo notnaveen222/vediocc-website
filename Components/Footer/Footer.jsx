@@ -8,8 +8,11 @@ const Footer = () => {
           <div className="text-4xl mb-5 font-bold text-center sm:text-left">
             VEDIOCC
           </div>
-          <div className="text-3xl font-extralight w-full sm:w-2/3 text-center sm:text-left">
+          <div className="text-3xl font-extralight w-full sm:w-7/12 text-center sm:text-left">
             We build brands people follow, buy from, and talk about.
+            <div className="text-3xl font-extralight w-full sm:w-2/3 text-center sm:text-left tracking-wider ">
+              vedioccagency@gmail.com
+            </div>
           </div>
         </div>
         <div className="text-center sm:text-right">
@@ -29,13 +32,14 @@ const Footer = () => {
             >
               THREADS
             </a>
-            <a
-              href="mailto:vedioccagency@gmail.com"
+            {/* <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=vedioccagency@gmail.com"
+              rel="noopener noreferrer"
               target="blank"
               className="text-xl font-extralight tracking-wider cursor-pointer"
             >
               MAIL
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
