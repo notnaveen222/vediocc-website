@@ -1,0 +1,11 @@
+.hero-bg {
+  background-color: #e1e9de;
+  background-size: 120px 120px;
+  background-image: repeating-linear-gradient(
+    to right,
+    #0000001a 0px,
+    #0000001a 2px,
+    transparent 2px,
+    transparent 200px
+  );
+}
