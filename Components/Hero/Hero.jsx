@@ -4,9 +4,13 @@ const Hero = () => {
   return (
     <div className="h-screen w-screen flex-col flex overflow-x-hidden hero-bg">
       <div className="w-full relative flex h-fit justify-end">
-        <div className="px-5 py-3 absolute top-10 right-5 sm:right-10 inline rounded-xl text-white sf-font font-bold text-3xl orange-btn-animation cursor-pointer">
+        <a
+          href="mailto:vedioccagency@gmail.com"
+          target="blank"
+          className="px-5 py-3 absolute top-10 right-5 sm:right-10 inline rounded-xl text-white sf-font font-bold text-3xl orange-btn-animation cursor-pointer"
+        >
           let’s talk
-        </div>
+        </a>
       </div>
       <div className="flex-grow flex flex-col gap-y-10 justify-center sf-font font-bold items-center ">
         <div className="text-4xl">WEB-DESIGN</div>
