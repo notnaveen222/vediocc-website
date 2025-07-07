@@ -9,3 +9,12 @@
     transparent 200px
   );
 }
+
+@font-face {
+  font-family: "Bebas-Bold";
+  src: url("./BebasNeue-Bold.otf") format("opentype");
+}
+
+.font-bebas-bold {
+  font-family: "Bebas-Bold";
+}

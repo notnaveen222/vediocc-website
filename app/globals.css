@@ -3,14 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap");
 @import "tailwindcss";
 
-@font-face {
+/* @font-face {
   font-family: "Humane";
   src: url("/fonts/Humane/Humane-Medium.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Bebas-Bold";
-  src: url("/fonts/BebasNeue-Bold.otf");
-}
+} */
 
 .font-humane-bold {
   font-family: "Humane";
@@ -30,10 +26,6 @@
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-}
-
-.font-bebas-bold {
-  font-family: "Bebas-Bold";
 }
 
 .mea-culpa-regular {
