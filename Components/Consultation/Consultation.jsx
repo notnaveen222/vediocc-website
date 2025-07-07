@@ -14,7 +14,7 @@ const Consultation = () => {
         >
           Book a consultation
         </a>
-        <div className="absolute -bottom-2 -right-9 -rotate-[25deg] text-5xl mea-culpa-regular">
+        <div className="absolute -bottom-6 -right-7 lg:-bottom-6 lg:-right-8 -rotate-[25deg] text-5xl mea-culpa-regular">
           its free
         </div>
       </div>
